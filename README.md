@@ -15,6 +15,17 @@ Add the following line at the end of the file:  deb http://cz.archive.ubuntu.com
 
 sudo apt-get install libwebkitgtk-3.0-0 openscenegraph-plugin-osgearth libosgearth-dev openmpi-bin libopenmpi-dev
 
+## PATH
+
+gedit ~/.bashrc #Adding the paths
+source ~/.bashrc #Save changes without closing terminal
+
+export CARLA_HOME=$HOME/src/carla-simulator
+export CARLA_VERSION=0.9.13
+
+export SUMO_HOME="/usr/local/opt/sumo/share/sumo"
+export PATH=$HOME/src/omnetpp-5.6.2/bin
+export PATH=$PATH:$HOME/src/omnetpp-5.6.2/bin:$PATH
 
 ## References
 Installation of Omnetpp with Ubuntu 20.04: https://www.youtube.com/watch?v=oBRrhuaMxGk
