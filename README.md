@@ -39,5 +39,13 @@ source vCarla/bin/activate #To use before launching any python script in the Car
 ###
 pip3 install lxml
 
+## Artery
+### Enable sumo-gui
+cd Path/To/Artery/scenarios/artery
+Edit the file omnetpp.ini: add the line *.traci.launcher.sumo = "sumo-gui"
+Save the file 
+
+
+
 ## References
 Installation of Omnetpp with Ubuntu 20.04: https://www.youtube.com/watch?v=oBRrhuaMxGk
