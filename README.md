@@ -42,7 +42,9 @@ pip3 install lxml
 ## Artery
 ### Enable sumo-gui
 cd Path/To/Artery/scenarios/artery
+
 Edit the file omnetpp.ini: add the line *.traci.launcher.sumo = "sumo-gui"
+
 Save the file 
 
 
