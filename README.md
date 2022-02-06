@@ -25,6 +25,8 @@ export CARLA_HOME=$HOME/src/carla-simulator
 export CARLA_VERSION=0.9.13
 
 export SUMO_HOME="/usr/local/opt/sumo/share/sumo"
+export SUMO_HOME=/usr/share/sumo
+
 export PATH=$HOME/src/omnetpp-5.6.2/bin
 
 ## Virtual Environment 
@@ -33,6 +35,9 @@ cd Path/To/Carla/
 python3.7 -m venv vCarla 
 
 source vCarla/bin/activate #To use before launching any python script in the Carla Folder
+
+###
+pip3 install lxml
 
 ## References
 Installation of Omnetpp with Ubuntu 20.04: https://www.youtube.com/watch?v=oBRrhuaMxGk
